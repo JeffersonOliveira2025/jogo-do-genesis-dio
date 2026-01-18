@@ -2,15 +2,9 @@
 Esse repositório é um jogo simples e divertido para todas as idades, curta muita com apenas algumas linhas de código!
 
 # Os requisitos são:
-- 🌐 HTML básico
-- 🎨 CSS básico
-- ⚡ Javascript básico
+- 🌐 [HTML básico](https://www.w3schools.com/html/)
+- 🎨 [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- ⚡ [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   
 ### 🚀 Let's code! 🚀
 
-Os requisitos são:
-- [x] [HTML básico](https://www.w3schools.com/html/)
-- [x] [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [x] [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
-🚀 Let's code! 🚀
