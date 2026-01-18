@@ -7,5 +7,4 @@ Esse repositório é um jogo simples e divertido para todas as idades, curta mui
 - 🎨 [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - ⚡ [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   
-### 🚀 Let's code! 🚀
-#
+<sub>### 🚀 Let's code! 🚀</sub>
