@@ -7,4 +7,4 @@ Esse repositório é um jogo simples e divertido para todas as idades, curta mui
 - ⚡ [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   
 ### 🚀 Let's code! 🚀
-
+#
