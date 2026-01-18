@@ -8,3 +8,9 @@ Esse repositório é um jogo simples e divertido para todas as idades, curta mui
   
 ### 🚀 Let's code! 🚀
 
+Os requisitos são:
+- [x] [HTML básico](https://www.w3schools.com/html/)
+- [x] [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [x] [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+🚀 Let's code! 🚀
