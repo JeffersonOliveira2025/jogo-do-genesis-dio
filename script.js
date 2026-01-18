@@ -1,4 +1,5 @@
 
+
 let order = [];
 let clickedOrder = [];
 let score = 0;
@@ -13,7 +14,7 @@ const red = document.querySelector('.red');
 const yellow = document.querySelector('.yellow');
 const blue = document.querySelector('.blue');
 
-//cria ordem aleatoria de cores
+
 let shuffleOrder = () => {
     let colorOrder = Math.floor(Math.random() * 4);
     order[order.length] = colorOrder;
@@ -25,7 +26,7 @@ let shuffleOrder = () => {
     }   
 }
 
-//acende a proxima cor
+
 let lightColor = (element, number) => {
     number = number * 500;
     setTimeout(() => {
@@ -36,7 +37,7 @@ let lightColor = (element, number) => {
     });
 }
 
-//checa se os botoes clicados sao os mesmos da ordem gerada no jogo
+
 let checkOrder = () => {
     for(let i in clickedOrder) {
         if(clickedOrder[i] != order[i]) {
@@ -50,7 +51,7 @@ let checkOrder = () => {
     }
 }
 
-//função para o clique do usuario
+
 let click = (color) => {
     clickedOrder[clickedOrder.length] = color;
     createColorElement(color).classList.add('selected');
@@ -61,7 +62,7 @@ let click = (color) => {
     },250);
 }
 
-//função que retorna a cor
+
 let createColorElement = (color) => {
     if(color == 0) {
         return green;
@@ -73,13 +74,13 @@ let createColorElement = (color) => {
         return blue;
     }   
 }
-//função para o próximo nível do jogo
+
 let nextLevel = () => {
     score++;
     shuffleOrder();
 }
 
-//função para game over
+
 let gameOver = () => {  
     alert(`Pontuação: ${score}!\nVocê perdeu o jogo!\nClique em OK para iniciar um novo jogo`);
     order = [];
@@ -87,19 +88,21 @@ let gameOver = () => {
     playGame();
 }
 
-//função para iniciar o jogo
 let playGame = () => {
-    alert('Bem vindo ao Gênesis! Iniciando novo jogo!');
+    alert('Bem vindo ao Gênesis o Jogo da Memória! Iniciando novo jogo!');
     score = 0;
     nextLevel();
 }
 
-//eventos de clique para as cores
+
 green.onclick = () => click(0);
 red.onclick = () => click(1);
 yellow.onclick = () => click(2);
 blue.onclick = () => click(3);
 
-//inicio do jogo
+
 playGame();
+
+
+
 
