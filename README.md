@@ -2,9 +2,9 @@
 Esse repositório é um jogo simples e divertido para todas as idades, curta muita com apenas algumas linhas de código!
 
 # Os requisitos são:
-- HTML básico
-- CSS básico
-- Javascript básico
+- 🌐 HTML básico
+- 🎨 CSS básico
+- ⚡ Javascript básico
   
-🚀 Let's code! 🚀
+### 🚀 Let's code! 🚀
 
