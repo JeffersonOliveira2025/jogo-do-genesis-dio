@@ -1,9 +1,9 @@
-body{
+body {
     margin: 0;
-    background-color: rgb(208, 255, 239);
+    background-color: #333; 
 }
 
-.main-game{
+.main-game {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -11,48 +11,66 @@ body{
     align-items: center;
 }
 
-.genius{
+.jogoDaMemoria {
     display: grid;
     grid-template-areas: 'verde vermelho'
     'amarelo azul';
-    grid-gap: 10px;
-    border: 1px solid #ffffff;
-    background-color: #ffffff;
+
+   
+    border: 5px solid #222; 
+    background-color: #222;
     border-radius: 100%;
     width: 700px;
     height: 700px;
-
+    position: relative; 
+    overflow: hidden; 
 }
 
-.blue{
-    grid-area: azul;
-    background-color: blue;
-    border-bottom-right-radius: 100%;
-    
-}
-
-.red{
-    grid-area: vermelho;
-    background-color: red;
-    border-top-right-radius: 100%;
-    
-}
-
-.yellow{
-    grid-area: amarelo;
-    background-color: yellow;
-    border-bottom-left-radius: 100%;
-    
-}
-
- 
-.green{
+.green {
     grid-area: verde;
-    background-color: green;
+    background-color: #00A74A;
     border-top-left-radius: 100%;
-    
 }
 
-.selected{
-    opacity: 0.4;
+.red {
+    grid-area: vermelho;
+    background-color: #9F0F17; 
+    border-top-right-radius: 100%;
 }
+
+.yellow {
+    grid-area: amarelo;
+    background-color: #CCBE00;
+    border-bottom-left-radius: 100%;
+}
+
+.blue {
+    grid-area: azul;
+    background-color: #094A8F; 
+    border-bottom-right-radius: 100%;
+}
+
+
+.middle-circle {
+    position: absolute;
+    width: 300px; 
+    height: 300px;
+    background-color: #222;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 15px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.selected {
+    opacity: 0.4; 
+}
+
